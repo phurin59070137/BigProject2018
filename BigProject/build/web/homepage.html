@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bootstrap Example</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+	<div class="container">
+		<a class="navbar-brand" href="homepage.html">Used Car Market Online</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+		<div class="collapse navbar-collapse" id="navbarColor01">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item"> <!--active-->
+					<a class="nav-link" href="login.html">Login <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="register.html">Register</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+						Manage
+					</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="">Profile</a>
+						<a class="dropdown-item" href="#">Logout</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+</nav>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-6 col-sm-12">
+			<div class="feature-section mt-4">
+				<div class="container">
+				<h1>Search</h1>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								Brand
+								<select class="custom-select">
+									<option value="1">1</option>
+									<option value="2">2</option>
+								</select>
+							</div>
+							<div class="form-group">
+								Model Year
+								<select class="custom-select">
+									<option value="1">1</option>
+									<option value="2">2</option>
+								</select>
+							</div>
+							<div class="form-group">
+								Area
+								<select class="custom-select">
+									<option value="1">1</option>
+									<option value="2">2</option>
+								</select>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								Model
+								<select class="custom-select">
+									<option value="1">1</option>
+									<option value="2">2</option>
+								</select>
+							</div>
+							<div class="form-group">
+								Variant
+								<select class="custom-select">
+									<option value="1">1</option>
+									<option value="2">2</option>
+								</select>
+							</div>
+							<div class="form-group">
+								Seller Type
+								<select class="custom-select">
+									<option value="1">1</option>
+									<option value="2">2</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				<div class="form-group">
+					Price
+					<input type="text" class="form-control">
+				</div>
+				<a href="#" class="btn btn-primary btn-lg btn-block mb-3" role="button">Search<i class="fa fa-search"></i></a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6 col-sm-12">
+			<div class="jumbotron text-center mt-4">
+                            
+				<div class="container">
+					<a href="#" class="btn btn-primary btn-lg" role="button">Sell your car</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

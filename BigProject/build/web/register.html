@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+	<div class="container">
+		<a class="navbar-brand" href="homepage.html">Used Car Market Online</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+		<div class="collapse navbar-collapse" id="navbarColor01">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="login.html">Login <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="register.html">Register</a>
+				</li>
+			</ul>
+		</div>
+</nav>
+
+<div class="container mt-4 bg-light pt-2 pb-2">
+<ul class="nav nav-pills nav-justified">
+	<li class="nav-item">
+		<a class="nav-link active show" data-toggle="tab" href="#register">Register</a>
+	</li>
+	<li class="nav-item">
+		<a class="nav-link" data-toggle="tab" href="#forsale">Register for sale</a>
+	</li>
+</ul>
+<div id="myTabContent" class="tab-content">
+	<div class="tab-pane fade active show" id="register">
+		<div class="container mt-4">
+			<form class="form-horizontal">
+				<div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<span class="input-group-text bg-secondary" id="">Full name</span>
+					</div>
+					<input type="text" class="form-control" placeholder="First name">
+					<input type="text" class="form-control" placeholder="Last name">
+				</div>
+				<div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<span class="input-group-text bg-secondary">Username</span>
+					</div>
+					<input type="text" class="form-control" placeholder="Username">
+				</div>
+				<div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<span class="input-group-text  bg-secondary">Password</span>
+					</div>
+					<input type="password" class="form-control" placeholder="Password">
+				</div>
+				<div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<span class="input-group-text  bg-secondary">Email address</span>
+					</div>
+					<input type="email" class="form-control" placeholder="Email address">
+				</div>
+				<div class="input-group mb-4">
+					<div class="input-group-prepend">
+						<span class="input-group-text  bg-secondary">Phone number</span>
+					</div>
+					<input type="tel" class="form-control" placeholder="Phone number">
+				</div>
+				<button type="button" class="btn btn-primary btn-lg btn-block mb-3">Register</button>
+			</form>
+		</div>
+	</div>
+	<div class="tab-pane fade" id="forsale">
+		<div class="container mt-4">
+			<form class="form-horizontal">
+				<div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<span class="input-group-text bg-secondary" id="">Full name</span>
+					</div>
+					<input type="text" class="form-control" placeholder="First name">
+					<input type="text" class="form-control" placeholder="Last name">
+				</div>
+				<div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<span class="input-group-text bg-secondary">Username</span>
+					</div>
+					<input type="text" class="form-control" placeholder="Username">
+				</div>
+				<div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<span class="input-group-text bg-secondary">Password</span>
+					</div>
+					<input type="password" class="form-control" placeholder="Password">
+				</div>
+				<div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<span class="input-group-text bg-secondary">Email address</span>
+					</div>
+					<input type="email" class="form-control" placeholder="Email address">
+				</div>
+				<div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<span class="input-group-text bg-secondary">Citizen ID</span>
+					</div>
+					<input type="text" class="form-control" placeholder="Citizen ID">
+				</div>
+				<div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<span class="input-group-text bg-secondary">Line ID</span>
+					</div>
+					<input type="text" class="form-control" placeholder="Line ID">
+				</div>
+				<div class="input-group">
+					<div class="input-group-prepend">
+						<span class="input-group-text bg-secondary">Phone number</span>
+					</div>
+					<input type="tel" class="form-control" placeholder="Phone number 1">
+				</div>
+				<small class="form-text text-danger mt-0 mb-1 ml-1"> *At least 1 phone number</small>
+				<div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<span class="input-group-text bg-secondary">Phone number</span>
+					</div>
+					<input type="tel" class="form-control" placeholder="Phone number 2">
+				</div>
+				<div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<span class="input-group-text bg-secondary">Phone number</span>
+					</div>
+					<input type="tel" class="form-control" placeholder="Phone number 3">
+				</div>
+				<div class="input-group">
+					<div class="input-group-prepend">
+						<span class="input-group-text bg-secondary">Tent address</span>
+					</div>
+					<textarea class="form-control" placeholder="Tent address"></textarea>
+				</div>
+				<small class="form-text text-danger mt-0 mb-1 ml-1"> *If you are a Dealer</small>
+				<div class="input-group pt-1 mb-3">
+					<label class="control-label pl-1 pr-3">Seller Type</label>
+					<div class="custom-control custom-radio custom-control-inline">
+						<input type="radio" id="private" name="sellerType" class="custom-control-input" checked="">
+						<label class="custom-control-label" for="private">Private</label>
+						</div>
+					<div class="custom-control custom-radio custom-control-inline">
+						<input type="radio" id="dealer" name="sellerType" class="custom-control-input">
+						<label class="custom-control-label" for="dealer">Dealer</label>
+					</div>
+				</div>
+				<button type="button" class="btn btn-primary btn-lg btn-block mb-3">Register</button>
+			</form>
+		</div>
+	</div>
+</div>
+</div>
+</body>
+</html>
